@@ -1,0 +1,79 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    color: rgb(46, 39, 157);
+}
+
+/* Body */
+
+body {
+    background-color: rgb(223, 246, 240);
+}
+
+/* Title */
+
+h1 {
+    text-align: center;
+    margin: 30px 250px 30px 250px;
+    padding: 5px 0 5px 0;
+    font-size: 55px;
+    background-color: rgba(77, 127, 228, 0.644);
+    border-radius: 60px;
+    border: solid 1px #2E279D;
+}
+
+/* Subtitle */
+
+h3 {
+    font-size: 30px;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    margin: 30px 325px 30px 325px;
+    background-color: rgba(77, 127, 228, 0.644);
+    border-radius: 60px;
+    border: solid 1px #2E279D;
+}
+
+/* Paragraph */
+
+p {
+    text-align: center;
+    margin: 0 50px 0 50px;
+    font-size: 25px
+}
+
+/* Table */
+
+table {
+    background-color: rgb(77, 128, 228);
+    border-radius: 15px;
+    margin: 80px auto;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+
+}
+
+th {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(102, 184, 223);
+}
+
+td {
+    font-size: 15px;
+    margin: 15px 20px;
+}
+
+.nomb-tabl {
+    text-align: center;
+}
+
+td, th {
+    border: solid 1px #2E279D;
+    padding: 15px 5px;
+    font-weight: bold;
+}
